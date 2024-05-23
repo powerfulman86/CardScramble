@@ -1,0 +1,15 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    margin: 16px;
+}
+
+#title {
+    color: teal;
+}
+
+#startArea {
+    margin: 16px;
+}
