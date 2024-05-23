@@ -13,3 +13,75 @@
 #startArea {
     margin: 16px;
 }
+
+#countdown {
+    margin: 16px;
+  }
+  
+  #time {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .cardArea {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 8px;
+    background-color: #686868;
+  }
+  
+  .card {
+    font-family: Arial;
+    font-size: 56px;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 8px;
+    background: black;
+    border: 1px solid #000;
+    border-radius: 8px;
+    box-shadow: 1px 1px 5px -1px #000;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    pointer-events: none;
+  }
+  
+  .card:hover {
+    text-decoration: underline;
+  }
+  
+  #scoreboard {
+    margin: 16px;
+  }
+  
+  #score {
+    font-size: 24px;
+    color: green;
+  }
+  
+  #result {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  #restart {
+    background-color: blueviolet;
+    color: white;
+  }
+  
+  .button {
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 8px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .margin16 {
+    margin: 16px;
+  }

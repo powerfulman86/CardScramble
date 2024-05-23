@@ -14,7 +14,7 @@
     </div>
     <div id="startArea">
         <label for="cardCount">Select no. of cards:</label>
-        <select name="cardCount">
+        <select name="cardCount"  onmousedown="this.value='';" onchange="populateCards(this.value);">
             <option></option>
             <option value="5">5 Cards</option>
             <option value="10">10 Cards</option>
@@ -25,6 +25,22 @@
 
         <button class="start">Start Test</button>
     </div>
+
+    <div id="countdown">
+        You have <span id="time"></span> seconds to view the cards!
+    </div>
+
+    <div class="cardArea"></div>
+
+    <div class="margin16">
+        <span id="result"></span>
+        <button class="button hidden" id="restart" onclick="history.go(0);">Restart</button>
+        <button class="button hidden" id="reveal" onclick="revealCards()">Reveal</button>
+    </div>
+
+    <div id="scoreboard">Your score: <span id="score"></span></div>
+
     <script src="./JS/main.js"></script>
 </body>
+
 </html>
