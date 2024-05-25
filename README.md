@@ -13,3 +13,11 @@ https://powerfulman86.github.io/CardScramble/
 
 - [@Ahmed Mahmoud Maher](https://www.github.com/powerfulman86)
 - [@Ahmed Mohamed Maher](https://github.com/ahmedmahersayed)
+
+## Technology Used
+#IDE
+Visual Studio Code
+#technologies
+-Html 
+-CSS 
+-vanilla JavaScript
