@@ -22,3 +22,4 @@ https://powerfulman86.github.io/CardScramble/
 - Html 
 - CSS 
 - vanilla JavaScript
+- Github Pages
